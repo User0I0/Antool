@@ -29,7 +29,6 @@ background: #1E252B;
  .info{
     width: 600px;
     height: 354px;
-    background: #03ffdd47;
  }
  .s-1{
 width: 600px;
@@ -81,6 +80,7 @@ height: 64px;
 top: 468px;
 left: 108px;
 background: #283036;
+
 }
 .batton{
 margin-left: 140px;
@@ -108,7 +108,17 @@ text-align: left;
 color: #FFFFFF;
 }
 .area{
-width: 190px;
-height: 21px;
-color: #837A93;
+    color: rgba(255, 255, 255, 0.38);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+}
+.line{
+    width: 1.5px;
+height: 16px;
+position: relative;
+background: #837A93;
 }
