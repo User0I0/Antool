@@ -74,19 +74,19 @@ Line-height:70px;
 .s-3{
     display: flex;
     align-items: center;
-    border-radius: 8px;
     width: 497.66px;
 height: 64px;
 top: 468px;
 left: 108px;
+border-radius: 15px;
+border: 1.5px solid rgba(255, 255, 255, 0.10);
 background: #283036;
 
 }
 .batton{
-margin-left: 140px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+display: flex;
+justify-content:center;
+align-items: center;
 width: 130.43px;
 height: 48px;
 top: 476px;
@@ -114,11 +114,19 @@ color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    position: relative;
+
 }
 .line{
     width: 1.5px;
-height: 16px;
-position: relative;
-background: #837A93;
+    height: 16px;
+    background: #837A93;
+
+}
+.search{
+    width: 190px;
+    height: 21px;
+}
+.search-sighn{
+    width: 24.08px;
+height: 24px;
 }
