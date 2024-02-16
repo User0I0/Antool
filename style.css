@@ -32,6 +32,8 @@ body {
     position: relative;
     width: 600px;
     height: 354px;
+    margin-top: 178px;
+    margin-left: 111px;
 }
 
 .s-1 {
@@ -150,14 +152,14 @@ body {
 }
 
 .header-section {
-    position: relative;
+    position: absolute;
     width: 130.744px;
     height: 33px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 120.26px;
-    margin-top: 38px;
+    margin-top: 0px;
 }
 
 .prodact-name {
@@ -173,7 +175,8 @@ body {
     width: 19.377px;
     height: 20.949px;
 }
-.header-panel{
+
+.header-panel {
     width: 431px;
     height: 24px;
     display: flex;
@@ -181,17 +184,19 @@ body {
     align-items: center;
     list-style-type: none;
     gap: 48px;
-    position: relative;
+    position: absolute;
     margin-left: 508px;
 }
-.header-panel a{
+
+.header-panel a {
     text-decoration: none;
     color: #FFFFFF8C;
-  }
-  .simbol{
+}
+
+.simbol {
     width: 18px;
     height: 18px;
-  }
+}
 
 .login {
     color: rgba(255, 255, 255, 0.78);
@@ -226,19 +231,73 @@ body {
     width: 62px;
     height: 24px;
 }
-.panel{
-    position: relative;
+
+.panel {
+    position: absolute;
     width: 203px;
     height: 48px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 1132px;
+    margin-top: -12px;
 }
-.header-line{
+
+.line-panel {
     width: 1440px;
     height: 48px;
-    background: #ddcdcd;
+    position: relative;
     display: flex;
-    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgs {
+    width: 169px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 123px;
+    margin-top: 75px;
+    position: relative;
+}
+
+.section-2 {
+    width: 1440px;
+    height: 1509px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1 {
+    width: 1224px;
+    height: 1109px;
+    background: #51ff004e;
+}
+
+.text-head {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    width: 455px;
+    height: 62px;
+    background: #ffffff2c;
+}
+
+.text-head-1 {
+    color: rgba(255, 255, 255, 0.55);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    width: 427px;
+    height: 60px;
 }
