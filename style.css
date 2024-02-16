@@ -235,3 +235,10 @@ body {
     justify-content: space-between;
     margin-left: 1132px;
 }
+.header-line{
+    width: 1440px;
+    height: 48px;
+    background: #ddcdcd;
+    display: flex;
+    
+}
