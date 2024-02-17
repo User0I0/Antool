@@ -303,12 +303,14 @@ body {
     position: absolute;
     margin-top: 87px;
 }
-.text-one{
+
+.text-one {
     width: 455px;
-height: 147px;
-margin-left: 430px;
-position: relative;
+    height: 147px;
+    margin-left: 430px;
+    position: relative;
 }
+
 .big-img {
     width: 589px;
     height: 568px;
@@ -324,13 +326,15 @@ position: relative;
     position: relative;
 
 }
-.itoms{
+
+.itoms {
     width: 1224px;
     height: 314px;
     background: none;
     display: flex;
     gap: 25px;
 }
+
 .box-a {
     width: 392px;
     height: 294px;
@@ -339,7 +343,8 @@ position: relative;
     margin-top: 20px;
     position: relative;
 }
-.box-b{
+
+.box-b {
     width: 392px;
     height: 294px;
     border-radius: 15px;
@@ -348,101 +353,383 @@ position: relative;
     margin-bottom: 20px;
     position: relative;
 }
-.box-c{
-    width: 392px;
-    height: 294px;
+
+.box-c {
+    width: 391px;
+    height: 293px;
     border-radius: 15px;
     backdrop-filter: blur(25px);
     margin-top: 20px;
     position: relative;
 }
-.circle{
+
+.circle {
     width: 65px;
     height: 65px;
     position: absolute;
     margin-top: 0;
     margin-left: 730px;
     fill: rgba(255, 110, 48, 0.60);
-filter: blur(25px);
+    filter: blur(25px);
 }
-.box-b-1{
+
+.box-b-1 {
     width: 392px;
-height: 294px;
-border-radius: 15px;
-position: relative;
+    height: 294px;
+    border-radius: 15px;
+    position: relative;
 }
-.figma{
+
+.figma {
     width: 64px;
-height: 64px;
-margin-top: 34px;
-margin-left: 34px;
-position: absolute;
+    height: 64px;
+    margin-top: 34px;
+    margin-left: 34px;
+    position: absolute;
 }
-.text-figma{
+
+.text-figma {
     position: absolute;
     color: rgba(255, 255, 255, 0.78);
-font-family: Poppins;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-margin-top: 33px;
-margin-left: 127px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 33px;
+    margin-left: 127px;
 }
-.text-free{
+
+.text-free {
     color: rgba(255, 165, 55, 0.55);
 
-font-family: Poppins;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-top: 72px;
-margin-left: 127px;
-position: absolute;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 72px;
+    margin-left: 127px;
+    position: absolute;
 }
-.text-lore{
+
+.text-lore {
     color: rgba(255, 255, 255, 0.55);
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-position: absolute;
-margin-left: 33px;
-margin-top: 129px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    position: absolute;
+    margin-left: 33px;
+    margin-top: 129px;
 }
-.heart{
+
+.heart {
     width: 28px;
-height: 28px;
-position: absolute;
-margin-left: 40px;
-margin-top: 219px;
+    height: 28px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 219px;
 }
-.ava{
+
+.ava {
     width: 30px;
-height: 30px;
-margin-top: 219px;
-margin-left: 93px;
-position: absolute;
+    height: 30px;
+    margin-top: 219px;
+    margin-left: 93px;
+    position: absolute;
 }
-.blured-buttom{
+
+.blured-buttom {
     width: 106px;
-height: 42px;
-border-radius: 8px;
-background: #1E252B;
-position: absolute;
-margin-top: 219px;
-margin-left: 253px;
-display: flex;
-justify-content: center;
-align-items: center;
+    height: 42px;
+    border-radius: 8px;
+    background: #1E252B;
+    position: absolute;
+    margin-top: 219px;
+    margin-left: 253px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.blured-text{
+
+.blured-text {
     color: rgba(255, 255, 255, 0.55);
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.diamant {
+    width: 64px;
+    height: 56.95px;
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 33px;
+}
+
+.text-sk {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 33px;
+    margin-left: 127px;
+}
+
+.textt {
+    color: #FFA537;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-left: 127px;
+    margin-top: 72px;
+}
+
+.textl {
+    color: rgba(255, 255, 255, 0.78);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 187.5% */
+    height: 60px;
+    width: 326px;
+    position: absolute;
+    margin-top: 129px;
+    margin-left: 33px;
+}
+
+.box-0 {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+    background: #283036;
+    box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 219px;
+    margin-left: 33px;
+}
+
+.heart-2 {
+    width: 28px;
+    height: 28px;
+}
+
+.ava-1-0 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-top: 225px;
+    margin-left: 93px;
+}
+
+.battom-org {
+    width: 106px;
+    height: 42px;
+    border-radius: 8px;
+    background: #FF6E30;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 219px;
+    margin-left: 253px;
+}
+
+.org-text {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.vs {
+    width: 65px;
+    height: 62.841px;
+    margin-top: 34px;
+    margin-left: 34px;
+    position: absolute;
+}
+
+.vs-text {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.78);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 33px;
+    margin-left: 127px;
+}
+
+.free-1 {
+    color: rgba(255, 165, 55, 0.55);
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 72px;
+    margin-left: 127px;
+    position: absolute;
+}
+
+.text-lore1 {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    position: absolute;
+    margin-left: 33px;
+    margin-top: 129px;
+}
+
+.heart-1 {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 219px;
+}
+
+.ava-1 {
+    width: 30px;
+    height: 30px;
+    margin-top: 219px;
+    margin-left: 93px;
+    position: absolute;
+}
+
+.blured-buttom-1 {
+    width: 106px;
+    height: 42px;
+    border-radius: 8px;
+    background: #1E252B;
+    position: absolute;
+    margin-top: 219px;
+    margin-left: 253px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blured-text-1 {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.itoms-2 {
+    width: 1224px;
+    height: 294px;
+    position: relative;
+    margin-top: 120px;
+    gap: 24px;
+}
+
+.box-d {
+    width: 391px;
+    height: 293px;
+    border-radius: 15px;
+    backdrop-filter: blur(25px);
+    position: relative;
+}
+
+.notion {
+    width: 64px;
+    height: 64px;
+    margin-top: 34px;
+    margin-left: 34px;
+    position: absolute;
+}
+.notion-t{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.78);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 33px;
+    margin-left: 127px;
+}
+.free-2{
+    color: rgba(255, 165, 55, 0.55);
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 72px;
+    margin-left: 127px;
+    position: absolute;
+}
+.text-lore2{
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    position: absolute;
+    margin-left: 33px;
+    margin-top: 129px;
+}
+.heart-3{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 219px;
+}
+.ava-2{
+    width: 30px;
+    height: 30px;
+    margin-top: 219px;
+    margin-left: 93px;
+    position: absolute;
+}
+.blured-buttom-2{
+    width: 106px;
+    height: 42px;
+    border-radius: 8px;
+    background: #1E252B;
+    position: absolute;
+    margin-top: 219px;
+    margin-left: 253px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blured-text-2{
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
