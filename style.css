@@ -647,7 +647,9 @@ body {
     height: 294px;
     position: relative;
     margin-top: 120px;
-    gap: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .box-d {
@@ -665,7 +667,8 @@ body {
     margin-left: 34px;
     position: absolute;
 }
-.notion-t{
+
+.notion-t {
     position: absolute;
     color: rgba(255, 255, 255, 0.78);
     font-family: Poppins;
@@ -676,7 +679,8 @@ body {
     margin-top: 33px;
     margin-left: 127px;
 }
-.free-2{
+
+.free-2 {
     color: rgba(255, 165, 55, 0.55);
 
     font-family: Poppins;
@@ -688,7 +692,8 @@ body {
     margin-left: 127px;
     position: absolute;
 }
-.text-lore2{
+
+.text-lore2 {
     color: rgba(255, 255, 255, 0.55);
     font-family: Poppins;
     font-size: 16px;
@@ -699,21 +704,24 @@ body {
     margin-left: 33px;
     margin-top: 129px;
 }
-.heart-3{
+
+.heart-3 {
     width: 28px;
     height: 28px;
     position: absolute;
     margin-left: 40px;
     margin-top: 219px;
 }
-.ava-2{
+
+.ava-2 {
     width: 30px;
     height: 30px;
     margin-top: 219px;
     margin-left: 93px;
     position: absolute;
 }
-.blured-buttom-2{
+
+.blured-buttom-2 {
     width: 106px;
     height: 42px;
     border-radius: 8px;
@@ -725,11 +733,267 @@ body {
     justify-content: center;
     align-items: center;
 }
-.blured-text-2{
+
+.blured-text-2 {
     color: rgba(255, 255, 255, 0.55);
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+.box-e {
+    width: 391px;
+    height: 293px;
+    border-radius: 15px;
+    backdrop-filter: blur(25px);
+    position: relative;
+}
+
+.box-f {
+    width: 391px;
+    height: 293px;
+    border-radius: 15px;
+    backdrop-filter: blur(25px);
+    position: relative;
+}
+
+.gr {
+    width: 65px;
+    height: 62.841px;
+    margin-top: 34px;
+    margin-left: 34px;
+    position: absolute;
+}
+
+.in {
+    width: 65px;
+    height: 62.841px;
+    margin-top: 34px;
+    margin-left: 34px;
+    position: absolute;
+}
+
+.grt {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.78);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 33px;
+    margin-left: 127px;
+}
+
+.int {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.78);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 33px;
+    margin-left: 127px;
+}
+
+.free-3 {
+    color: rgba(255, 165, 55, 0.55);
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 72px;
+    margin-left: 127px;
+    position: absolute;
+}
+
+.free-4 {
+    color: rgba(255, 165, 55, 0.55);
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 72px;
+    margin-left: 127px;
+    position: absolute;
+}
+
+.text-lore3 {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    position: absolute;
+    margin-left: 33px;
+    margin-top: 129px;
+}
+
+.text-lore4 {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    position: absolute;
+    margin-left: 33px;
+    margin-top: 129px;
+}
+
+.heart-4 {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 219px;
+}
+
+.heart-5 {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 219px;
+}
+
+.ava-3 {
+    width: 30px;
+    height: 30px;
+    margin-top: 219px;
+    margin-left: 93px;
+    position: absolute;
+}
+
+.ava-4 {
+    width: 30px;
+    height: 30px;
+    margin-top: 219px;
+    margin-left: 93px;
+    position: absolute;
+}
+
+.blured-buttom-3 {
+    width: 106px;
+    height: 42px;
+    border-radius: 8px;
+    background: #1E252B;
+    position: absolute;
+    margin-top: 219px;
+    margin-left: 253px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blured-buttom-4 {
+    width: 106px;
+    height: 42px;
+    border-radius: 8px;
+    background: #1E252B;
+    position: absolute;
+    margin-top: 219px;
+    margin-left: 253px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blured-text-3 {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.blured-text-4 {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.batom {
+    width: 184px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: #1E252B;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-batom {
+    color: #FF6E30;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.section-3 {
+    width: 1224px;
+    height: 253px;
+    border-radius: 25px;
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    background: rgba(44, 53, 61, 0.20);
+    backdrop-filter: blur(25px);
+    margin-left: 108px;
+    position: relative;
+}
+
+.infot {
+    color: rgba(255, 255, 255, 0.80);
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 428px;
+}
+.img-line{
+    width: 1059px;
+height: 44px;
+margin-top: 148px;
+margin-left: 82px;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.ms{
+    width: 193px;
+height: 42px;
+}
+.google{
+    width: 157px;
+height: 51px;
+}
+.slack{
+    width: 194px;
+height: 49px;
+}
+.wp{
+    width: 194px;
+height: 44px;
 }
