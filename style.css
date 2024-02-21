@@ -1066,8 +1066,8 @@ body {
 .box-12 {
     width: 600px;
     height: 638px;
-    position: relative;
     margin-left: 624px;
+    display: flex;
 }
 
 .zeplin {
@@ -1075,17 +1075,16 @@ body {
     background: #1E252B;
     width: 288px;
     height: 284px;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 20px;
+
 }
 
 .ze-nt {
     width: 245px;
     height: 228px;
-    background: #fffb0e2c;
     position: relative;
+    margin-top: 28px;
+    margin-left: 28px;
 }
 
 .zep-img {
@@ -1132,4 +1131,92 @@ body {
     width: 245px;
     position: absolute;
     margin-top: 96px;
+}
+
+.heart-a1 {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    margin-top: 192px;
+    margin-left: 0;
+}
+
+.ava-a1 {
+    width: 30px;
+    height: 30px;
+    margin-left: 53px;
+    margin-top: 193px;
+}
+
+.button-a1 {
+    width: 106px;
+    height: 42px;
+    border-radius: 8px;
+    background: #1E252B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 132px;
+}
+
+.in-text-a1 {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.PS {
+    width: 288px;
+    height: 284px;
+    margin-left: 24px;
+    border-radius: 15px;
+    background: rgba(40, 48, 54, 0.60);
+    backdrop-filter: blur(25px);
+}
+
+.ps {
+    width: 245px;
+    height: 228px;
+    position: relative;
+    margin-top: 28px;
+    margin-left: 22px;
+}
+
+.ps-img {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+}
+
+.ps-text {
+    color: rgba(255, 255, 255, 0.90);
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    height: 36px;
+    width: 119px;
+    position: absolute;
+    margin-left: 94px;
+}
+
+.free-a1 {
+    color: #FFA537;
+    position: absolute;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 39px;
+    height: 27px;
+    margin-top: 39px;
+    margin-left: 94px;
 }
