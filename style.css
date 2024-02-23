@@ -1,4 +1,9 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Lora:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+    font-family: 'Lora', serif;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -1068,6 +1073,7 @@ body {
     height: 638px;
     margin-left: 624px;
     display: flex;
+    position: relative;
 }
 
 .zeplin {
@@ -1076,7 +1082,7 @@ body {
     width: 288px;
     height: 284px;
     margin-top: 20px;
-
+    position: absolute;
 }
 
 .ze-nt {
@@ -1177,6 +1183,8 @@ body {
     border-radius: 15px;
     background: rgba(40, 48, 54, 0.60);
     backdrop-filter: blur(25px);
+    position: absolute;
+    margin-left: 312px;
 }
 
 .ps {
@@ -1219,4 +1227,381 @@ body {
     height: 27px;
     margin-top: 39px;
     margin-left: 94px;
+}
+
+.text-a1 {
+    color: rgba(255, 255, 255, 0.78);
+    position: absolute;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 245px;
+    height: 60px;
+    margin-top: 96px;
+}
+
+.heart-a2 {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    margin-top: 193px;
+}
+
+.ava-a2 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 193px;
+}
+
+.button-a2 {
+    width: 106px;
+    height: 42px;
+    border-radius: 8px;
+    background: #FF6E30;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 186px;
+    margin-left: 132px;
+}
+
+.in-text-a2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Tb {
+    width: 288px;
+    height: 284px;
+    border-radius: 15px;
+    background: #1E252B;
+    position: absolute;
+    margin-top: 357px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tb {
+    width: 245px;
+    height: 228px;
+    position: relative;
+}
+
+.Tb-img {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+}
+
+.Tb-text {
+    color: rgba(255, 255, 255, 0.78);
+    position: absolute;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 94px;
+}
+
+.free-a3 {
+    color: rgba(255, 165, 55, 0.55);
+    position: absolute;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 94px;
+    margin-top: 39px;
+}
+
+.text-a2 {
+    color: rgba(255, 255, 255, 0.55);
+    position: absolute;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 96px;
+}
+
+.P {
+    width: 288px;
+    height: 284px;
+    border-radius: 15px;
+    background: #1E252B;
+    position: absolute;
+    margin-top: 357px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 312px;
+}
+
+.p {
+    width: 245px;
+    height: 228px;
+    position: relative;
+}
+
+.p-img {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+}
+
+.p-text {
+    color: rgba(255, 255, 255, 0.78);
+    position: absolute;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 94px;
+}
+
+.p-p {
+    color: rgba(255, 165, 55, 0.55);
+    position: absolute;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 94px;
+    margin-top: 39px;
+}
+
+.text-a3 {
+    color: rgba(255, 255, 255, 0.55);
+    position: absolute;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 96px;
+}
+
+.button-a3 {
+    width: 106px;
+    height: 42px;
+    border-radius: 8px;
+    background: #1E252B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 132px;
+}
+
+.button-a4 {
+    width: 106px;
+    height: 42px;
+    border-radius: 8px;
+    background: #1E252B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 132px;
+}
+
+.button-a3 {
+    width: 106px;
+    height: 42px;
+    border-radius: 8px;
+    background: #1E252B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 186px;
+    margin-left: 139px;
+}
+
+.in-text-a3 {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.buttom-a4 {
+    width: 106px;
+    height: 42px;
+    border-radius: 8px;
+    background: #1E252B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 186px;
+    margin-left: 139px;
+}
+
+.in-text-a4 {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.section-5 {
+    width: 1224px;
+    height: 600px;
+    margin-top: 218px;
+    position: relative;
+}
+
+.arove {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    margin-left: 16px;
+    margin-top: 178px;
+}
+
+.hero-box {
+    width: 392px;
+    height: 492px;
+    position: absolute;
+    margin-left: 187px;
+}
+
+.bg {
+    width: 265px;
+    height: 91px;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -132px;
+}
+
+.bg-text-1 {
+    color: rgba(255, 253, 253, 0.78);
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-left: 153px;
+    margin-top: -122px;
+}
+
+.bg-text-2 {
+    color: rgba(255, 253, 253, 0.55);
+    position: absolute;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 153px;
+    margin-top: -89px;
+}
+
+.sm {
+    background: linear-gradient(189deg, rgba(252, 252, 252, 0.00) 20.34%, rgba(255, 255, 255, 0.50) 155.72%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Lora;
+    font-size: 250px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transform: rotate(19.166deg);
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 566.99px;
+}
+
+.text-p {
+    color: rgba(255, 255, 255, 0.78);
+    width: 393px;
+    height: 180px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.21px;
+    position: absolute;
+    margin-left: 643px;
+    margin-top: 110px;
+}
+
+.arove-o {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    margin-top: 178px;
+    margin-left: 1209px;
+}
+
+.lines {
+    width: 168px;
+    height: 8px;
+    position: absolute;
+    margin-top: 570px;
+    margin-left: 528px;
+}
+
+.section-6 {
+    width: 553px;
+    height: 311px;
+    position: relative;
+    margin-left: 360px;
+    margin-top: 258px;
+}
+
+.text-c1 {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    position: absolute;
+}
+.text-c2{
+    color: rgba(255, 255, 255, 0.55);
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+position: absolute;
+margin-top: 87px;
+margin-left: 63px;
+width: 427px;
+height: 60px;
+}
+.ml{
+    width: 549px;
+height: 64px;
+position: absolute;
+margin-top: 311px;
 }
