@@ -384,6 +384,11 @@ body {
     border-radius: 15px;
     position: relative;
 }
+.le2{
+    width: 392px;
+    height: 294px;
+    position: absolute;
+}
 
 .figma {
     width: 64px;
@@ -963,6 +968,11 @@ body {
     margin-left: 108px;
     position: relative;
 }
+.le1{
+    width: 1224px;
+    height: 253px;
+    position: absolute;
+}
 
 .infot {
     color: rgba(255, 255, 255, 0.80);
@@ -1193,6 +1203,14 @@ body {
     position: relative;
     margin-top: 28px;
     margin-left: 22px;
+}
+
+.ps-png {
+    width: 288px;
+    height: 284px;
+    position: absolute;
+    margin-left: -24px;
+    margin-top: -25px;
 }
 
 .ps-img {
@@ -1585,23 +1603,71 @@ body {
     line-height: 130%;
     position: absolute;
 }
-.text-c2{
+
+.text-c2 {
     color: rgba(255, 255, 255, 0.55);
-text-align: center;
-font-family: Poppins;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: 30px;
-position: absolute;
-margin-top: 87px;
-margin-left: 63px;
-width: 427px;
-height: 60px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    position: absolute;
+    margin-top: 87px;
+    margin-left: 63px;
+    width: 427px;
+    height: 60px;
 }
-.ml{
+
+.ml {
     width: 549px;
-height: 64px;
-position: absolute;
-margin-top: 311px;
+    height: 64px;
+    position: absolute;
+    margin-top: 311px;
+}
+
+.section-7 {
+    width: 1440px;
+    height: 351px;
+    position: relative;
+    margin-left: -107px;
+    margin-top: 210px;
+}
+
+.line-7 {
+    width: 1440px;
+    height: 0.5px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.l-e {
+    width: 260px;
+    height: 183px;
+    position: absolute;
+    margin-top: 73px;
+    margin-left: 108px;
+}
+
+.l-e1 {
+    width: 197px;
+    height: 142px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 524px;
+}
+
+.l-e2 {
+    width: 112px;
+    height: 108px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 836px;
+}
+
+.l-e3 {
+    width: 144px;
+    height: 142px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 1063px;
 }
